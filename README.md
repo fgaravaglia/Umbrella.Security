@@ -1,8 +1,19 @@
 # Repository Content
 Library to implement authorization application logics
 
-BADGE BUILD
+[![Build Status](https://garaproject.visualstudio.com/UmbrellaFramework/_apis/build/status/Umbrella.Security?branchName=main)](https://garaproject.visualstudio.com/UmbrellaFramework/_build/latest?definitionId=78&branchName=main)
 
+[![Security Rating](https://sonarcloud.io/api/project_badges/measure?project=Umbrella.Security&metric=security_rating)](https://sonarcloud.io/summary/new_code?id=Umbrella.Security)
+
+[![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?project=Umbrella.Security&metric=sqale_rating)](https://sonarcloud.io/summary/new_code?id=Umbrella.Security)
+
+[![Reliability Rating](https://sonarcloud.io/api/project_badges/measure?project=Umbrella.Security&metric=reliability_rating)](https://sonarcloud.io/summary/new_code?id=Umbrella.Security)
+
+[![Vulnerabilities](https://sonarcloud.io/api/project_badges/measure?project=Umbrella.Security&metric=vulnerabilities)](https://sonarcloud.io/summary/new_code?id=Umbrella.Security)
+
+[![Bugs](https://sonarcloud.io/api/project_badges/measure?project=Umbrella.Security&metric=bugs)](https://sonarcloud.io/summary/new_code?id=Umbrella.Security)
+
+# Installation
 To install it, use proper command:
 ```
 dotnet add package Umbrella.Security 
