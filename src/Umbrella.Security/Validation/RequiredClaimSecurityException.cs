@@ -25,9 +25,12 @@ namespace Umbrella.Security.Validation
         /// <returns></returns>
         public RequiredClaimSecurityException(Claim claim, string reason) : base("Unauthorized User: Missing or Wrong Claim " + claim.Type)
         {
-            this.MissingClaim = claim ?? throw new ArgumentNullException(nameof(claim));
+            if(claim == null)
+                throw new ArgumentNullException(nameof(claim));
             if (string.IsNullOrEmpty(reason))
                 throw new ArgumentNullException(nameof(reason));
+
+            this.MissingClaim = claim;
             this.Reason = reason;
         }
     }
