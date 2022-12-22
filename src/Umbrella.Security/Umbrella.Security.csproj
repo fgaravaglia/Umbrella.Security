@@ -4,7 +4,7 @@
     <TargetFramework>netstandard2.1</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <LangVersion>latest</LangVersion>
-    <NoWarn>S3925<NoWarn>
+    <NoWarn>S3925</NoWarn>
   </PropertyGroup>
 
   <ItemGroup>
